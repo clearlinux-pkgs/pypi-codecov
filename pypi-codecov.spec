@@ -4,7 +4,7 @@
 #
 Name     : pypi-codecov
 Version  : 2.1.12
-Release  : 37
+Release  : 38
 URL      : https://files.pythonhosted.org/packages/59/fa/91b6184b1f15fe9db9c7172eb61a191dbdb4cdf89177e34f1f29a255ca70/codecov-2.1.12.tar.gz
 Source0  : https://files.pythonhosted.org/packages/59/fa/91b6184b1f15fe9db9c7172eb61a191dbdb4cdf89177e34f1f29a255ca70/codecov-2.1.12.tar.gz
 Summary  : Hosted coverage reports for GitHub, Bitbucket and Gitlab
@@ -15,9 +15,6 @@ Requires: pypi-codecov-license = %{version}-%{release}
 Requires: pypi-codecov-python = %{version}-%{release}
 Requires: pypi-codecov-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: codecov
-Provides: codecov-python
-Provides: codecov-python3
 BuildRequires : pypi(coverage)
 BuildRequires : pypi(requests)
 
@@ -78,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641424083
+export SOURCE_DATE_EPOCH=1649729413
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
