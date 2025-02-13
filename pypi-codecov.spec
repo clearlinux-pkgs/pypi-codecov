@@ -7,7 +7,7 @@
 #
 Name     : pypi-codecov
 Version  : 2.1.13
-Release  : 52
+Release  : 53
 URL      : https://files.pythonhosted.org/packages/2c/bb/594b26d2c85616be6195a64289c578662678afa4910cef2d3ce8417cf73e/codecov-2.1.13.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2c/bb/594b26d2c85616be6195a64289c578662678afa4910cef2d3ce8417cf73e/codecov-2.1.13.tar.gz
 Summary  : Hosted coverage reports for GitHub, Bitbucket and Gitlab
